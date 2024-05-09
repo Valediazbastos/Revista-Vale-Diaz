@@ -1,0 +1,235 @@
+.cardtwo {
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #045b61;
+    border-radius: 8px;
+    z-index: 1;
+    box-shadow: 0px 10px 10px rgb(13, 29, 44);
+    transition: 0.5s;
+  }
+  #definicion{
+    text-align: center;
+  }
+  .cardtwo:hover {
+    transform: translateY(-7px);
+    box-shadow: 0px 10px 10px black;
+  }
+  .nodo{
+    display: flex;
+    gap: 10%;
+    margin-top: 10%;
+    margin-left: 15%;
+  }
+  
+ .cardListas {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: #060A13;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  box-shadow: 0 0 0 5px #ffffffc0;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+
+.cardListas img {
+  width: 100%;
+  fill: #333;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.cardListas:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.cardListas__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.cardListas:hover .cardListas__content {
+  transform: rotateX(0deg);
+}
+
+.cardListasEnlazadas{
+  display: flex;
+  gap: 10%;
+  margin-left: 25%;
+}
+.cardListas__title {
+  margin: 0;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  background: -webkit-linear-gradient(#135c61, #22C3CD);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.cardListas:hover img {
+  scale: 0;
+}
+
+.cardListas__description {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #777;
+  line-height: 1.4;
+}
+
+  .parteDinamica{
+  width: 100%;
+  height: 755px;
+  color: #ffff;
+  font-family: "Poppins", sans-serif;
+  background-image: url("fotos/Desktop\ -\ 5.png");
+}
+.parteDinamica2{
+  width: 100%;
+  height: 765px;
+  color: #ffff;
+  font-family: "Poppins", sans-serif;
+  background-image: url("fotos/nueva\ seccion.png");
+}
+  .top {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+  }
+  
+  .circle {
+    padding: 0 4px;
+  }
+  
+  .circle2 {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 5px;
+  }
+  
+  .red {
+    background-color: #ff605c;
+  }
+  
+  .yellow {
+    background-color: #ffbd44;
+  }
+  
+  .green {
+    background-color: #00ca4e;
+  }
+  
+  .header {
+    margin: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  
+  #title2 {
+    color: white;
+    padding-left: 50px;
+    font-size: 15px;
+  }
+  
+  .code-container {
+    text-align: center;
+  }
+  #code {
+    width: 270px;
+    height: 350px;
+    resize: none;
+    background-color: #060A13;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 10px;
+  }
+  #code:focus {
+    outline: none !important;
+  }
+  .arreglo{
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .FIFOLIFO{
+    display: flex;
+    gap: 12%;
+    margin-left: 20%;
+  }
+  .card2 {
+    width: 320px;
+    height: 150px;
+    padding: 20px;
+    color: white;
+    background: linear-gradient(#060A13, #060A13) padding-box,
+                linear-gradient(145deg, transparent 35%,#0e8992, #40c9ff) border-box;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transform-origin: right bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .card2 .main-content {
+    flex: 1;
+  }
+  
+  .card2 .header span:first-child {
+    font-weight: 600;
+    color: #717171;
+    margin-right: 4px;
+  }
+  
+  .card2 .heading {
+    font-size: 24px;
+    margin: 24px 0 16px;
+    font-weight: 600;
+  }
+  
+  .card2 .categories {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .card2 .categories span {
+    background-color: #40c9ff;
+    padding: 4px 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 50em;
+  }
+  
+  .card2 .footer {
+    font-weight: 600;
+    color: #717171;
+    margin-right: 4px;
+  }
+  
+  .card2:hover {
+    rotate: 8deg;
+  }
+  

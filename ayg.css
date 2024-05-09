@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+.seccion1{
+    width: 100%;
+    height: 865px;
+    color: #ffff;
+    
+    font-family: "Poppins", sans-serif;
+    background-image: url("fotos/Desktop\ -\ 10.png");
+}
+.seccion2{
+    width: 100%;
+    height: 765px;
+    color: #ffff;
+    
+    font-family: "Poppins", sans-serif;
+    background-image: url("fotos/titulo.png");
+  }
+.seccion3{
+    width: 100%;
+    height: 865px;
+    color: #ffff;
+    
+    font-family: "Poppins", sans-serif;
+    background-image: url("fotos/Desktop\ -\ 8.png");
+}
+.seccion4{
+    width: 100%;
+    height: 865px;
+    color: #ffff;
+    
+    font-family: "Poppins", sans-serif;
+    background-image: url("fotos/Desktop\ -\ 9.png");
+}
+.seccion5{
+  width: 100%;
+  height: 865px;
+  color: #ffff;
+  
+  font-family: "Poppins", sans-serif;
+  background-image: url("fotos/Desktop\ -\ 2.png");
+}
+#peso{
+    text-align: center;
+    margin-top: 2%;
+}
+#completos{
+    text-align: center;
+}
+#Altura{
+    text-align: center;
+}
+.categorias{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.alturas{
+    margin-top: 5%;
+}
+#h1{
+      text-align: center;
+    font-weight: 300;
+    position: relative;
+    top: 10%;
+    font-family: "Poppins", sans-serif;
+}
+#grafot{
+    margin-left: 20%;
+    
+}
+#grafot2{
+    margin-left: 6%;
+}
+.grafoc{
+   display: flex;
+    gap: 15%;
+}
+#nota{
+    font-family: "Poppins", sans-serif;
+    background: -webkit-linear-gradient(#034b50, #22C3CD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  #h2{
+      background: -webkit-linear-gradient(#eee, #22C3CD);
+      -webkit-background-clip: text;
+      text-align: center;
+      -webkit-text-fill-color: transparent;
+  }
+  .ario{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+  #ario{
+    text-align: center;
+  }
+ 
+  .FIFOLIFO{
+    display: flex;
+    gap: 5%;
+    margin-left: 5%;
+    
+  }
+  .card2 {
+    margin-top: 15%;
+    width: 320px;
+    height: 150px;
+    padding: 20px;
+    color: white;
+    background: linear-gradient(#060A13, #060A13) padding-box,
+                linear-gradient(145deg, transparent 35%,#c1edf0, #0084b8) border-box;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transform-origin: right bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .card2 .main-content {
+    flex: 1;
+  }
+  
+  .card2 .header span:first-child {
+    font-weight: 600;
+    color: #717171;
+    margin-right: 4px;
+  }
+  
+  .card2 .heading {
+    font-size: 24px;
+    margin: 24px 0 16px;
+    font-weight: 600;
+  }
+  
+  .card2 .categories {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .card2 .categories span {
+    background-color: #00c0ceb2;
+    padding: 4px 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 50em;
+  }
+  
+  .card2 .footer {
+    font-weight: 600;
+    color: #717171;
+    margin-right: 4px;
+  }
+  
+  .card2:hover {
+    rotate: 8deg;
+  }
+
+
+  .card1 {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+  }
+  
+  .card1-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.999s;
+  }
+  
+  .card1:hover .card1-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .card1-front,
+  .card1-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .card1-front {
+    background-color: #ffffff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border: 4px solid #00c0ceb2;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: 24px;
+    transform: rotateY(0deg);
+  }
+  .arbolitos{
+    display: flex;
+    margin-top: 15%;
+  }
+  
+  .card1-back {
+    background-color: #F08A5D;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border: 10px solid #F08A5D;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: 24px;
+    transform: rotateY(180deg);
+  }
+  .cards3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .cards3 .red {
+    background-color: #00c0ceb2;
+  }
+  
+  .cards3 .blue {
+    background-color: #016f9b;
+  }
+  
+  .cards3 .green {
+    background-color: #121a2c;
+  }
+  
+  .cards3 .card3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .cards3 .card3 p.tip {
+    font-size: 1em;
+    font-weight: 700;
+  }
+  
+  .cards3 .card3 p.second-text {
+    font-size: 1em;
+  }
+  
+  .cards3 .card3:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .cards3:hover > .card3:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+  }
+  .aritmetica{
+    font-size: 25px;
+  }
+  #nodos{
+    position: relative;
+    top: 75%;
+  }
+  .tooltip-container {
+    color: #ffffff;
+   
+    position: relative;
+ 
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 17px;
+    padding: 0.7em 1.8em;
+    border-radius: 50px;
+  }
+  
+  .tooltip {
+    background: -webkit-linear-gradient(#1f969e, #066168, #034b50);
+    position: absolute;
+    top: 0;
+    transform: translateX(0%);
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 1em 1.6em;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+    border-radius: 15px;
+    font-weight: 100;
+  }
+  
+  .tooltip::before {
+   
+    background-color: #034b50;
+    position: absolute;
+    content: "";
+    height: 0.6em;
+    width: 0.6em;
+    bottom: -0.2em;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+  }
+  
+  .tooltip-container:hover .tooltip {
+    top: -100%;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  

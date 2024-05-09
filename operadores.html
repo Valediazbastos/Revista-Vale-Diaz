@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="operadores.css">
+    <link rel="stylesheet" href="datos.css">
+</head>
+<body>
+    <div class="titulo">
+        <h1 id="h1">Expresiones <b id="h2">lógicos</b> , condicionales <b id="h2">lógicos</b>, <br> operaciones  <b id="h2">aritméticas</b> y más....</h1>
+       
+        <div class="padding">
+            <h1 id="nota">Nota*</h1>
+            <p id="conexion">Toda estructura de control tiene una condición lógica </p> 
+            <br>
+                <div class="tooltip-container">
+                    <span class="tooltip">Leer sección</span>
+                    <span class="text">Estructura de control </span>
+                  </div>
+        </div>
+        <main class="main flow">
+            <h1 class="main__heading">Operadores</h1>
+              <h3 id="h3">Orden general: Aritmético-relacional-lógico</h3>
+              <p id="operaciones_asig"> <b>Operadores de asignación:</b> igual a -> =</p>
+            <div class="main__cards cards">
+              <div class="cards__inner">
+                <div class="cards__card card">
+                  <h2 class="card__heading">+ - * /</h2>
+                  <p class="card__price">Operadores aritméticos</p>
+                  <ul role="list" class="card__bullets flow">
+                    <li>Paréntesis, Exponentes, Multiplicación y División (de izquierda a derecha), Suma y Resta (de izquierda a derecha).</li>
+                    <li>8 + 5 * 1 / 5 + 1</li>
+                  </ul>
+                  <a href="#basic" for="open-modal" class="card__cta cta">
+                    <label class=" demo-button" for="open-modal">Ejemplos</label>
+                  </a>
+                </div>
+                <div class="cards__card card">
+                  <h2 class="card__heading"><>=!=</h2>
+                  <p class="card__price">Operadores relacionales</p>
+                  <ul role="list" class="card__bullets flow">
+                    <li>Izquiera a derecha</li>
+                    <li>9) 50 / 5 < 30</li>
+                    <li>11) “A” >= “1”</li>
+                  </ul>
+               
+                  <a href="#pro"  for="open-modal"  class="card__cta cta">
+                    <label class=" demo-button" for="open-modal">Ejemplos</label></a>
+                </div>
+                <div class="cards__card card">
+                  <h2 class="card__heading">true false ! Y O</h2>
+                  <p class="card__price">Operadores Lógicos</p>
+                  <ul role="list" class="card__bullets flow">
+                    <li>N-Y-O</li>
+                    <li>Y todas deben ser true para ser true</li>
+                    <li>O al menos una true para que sea true</li>
+                    <li>A V B Ʌ !B V C V !!C</li>
+                  </ul>
+                  
+                  <a href="#ultimate"  for="open-modal"  class="card__cta cta"><label class=" demo-button" for="open-modal">Ejemplos</label></a>
+                </div>
+              </div>
+              <div class="overlay cards__inner"></div>
+            </div>
+          </main>
+    </div>
+   
+    <div class="modal__container">
+      <!-- Here is the hidden checkbox element which makes toggling the modal work -->
+      <input type="checkbox" id="open-modal" class="modal__toggler2"  />
+      <!-- Here is the background mask. When clicked, it closes the modal. Change this to a div to disable that functionality. -->
+      <label class="modal__mask2" for="open-modal"></label>
+      <div class="modal2">
+        <label class="modal__close2" for="open-modal"></label>
+        <div class="modal__content2">
+          <h1 class="modal__title">Operadores</h1>
+          
+          <img src="fotos/opera.png" alt="" />
+        <p>
+          Primero se hacen los operadores aritméticos, luego relacionales, y de último los lógicos.
+        </p>
+        <p>Primero se completa el antes de <=, lo que da 12, lo otro después da 22, 5, 8 </p>
+        <p>Luego hacemos las relacionales: V, F, V</p>
+        <p>Finalmente comparamos y da FALSE</p>
+        <label class="button" for="open-modal">Cerrar ventana</label>
+        </div>
+      </div>
+    </div>
+   
+   <div class="operadores">
+
+    <video width="590" height="370" id="control" controls>
+      <source src="fotos/control.mp4" type="video/mp4">
+     
+    </video>
+   </div>
+   
+   <div class="operadores2"><br><br><br><br>
+    <h1 id="h1">Estructuras de<b id="h2"> control</b> , de  <b id="h2">datos</b>, <br> y  <b id="h2">dinámicas</b> </h1>
+      
+    <h1 id="nota" class="titulo-control">Tipos de estructuras de control</h1>
+    <div id="tiposcontrol" class="tipos">
+      <div class="secuenciales">
+      
+        <img src="fotos/secuencia.png" alt="">
+      </div>
+      <div class="condicionales">
+        <img src="fotos/Removal-596.png" alt="">
+      </div>
+   
+    <div class="ciclica">
+      <img src="fotos/ciclica.png" alt="">
+    </div>
+  </div>
+   
+   </div>
+
+   
+   <div class="radio">
+    <div id="radio">
+      <h1 class="main__heading" id="estructuraDatos">Estructuras de datos</h1>
+      <p id="definicion">Organiza datos</p>
+      <h2 class="h2R">Radio</h2>
+     <br><br>
+    </div><br>  
+  <br>    <div class="cardtwo">
+      <div class="header">
+        <div class="top">
+          <div class="circle">
+            <span class="red circle2"></span>
+          </div>
+          <div class="circle">
+            <span class="yellow circle2"></span>
+          </div>
+          <div class="circle">
+            <span class="green circle2"></span>
+          </div>
+          <div class="title">
+            <p id="title2">radio.css</p>
+          </div>
+        </div>
+      </div>
+      <div class="code-container">
+        <textarea readonly="" name="code" id="code" class="area">
+    .registro {
+      es una unidad que permite 
+      organizar datos heterogéneos 
+      Ejemplo:
+      Datos.cedula 
+    }
+     #arreglo {
+      organiza datos homogéneos 
+      que puede ser controlado por 
+      medio de posiciones 
+
+    }    
+    .dato {
+      unidad, número, símbolo,
+      carácter que 
+      carecen de sentido      
+    }
+
+    #informacion{
+      un conjunto de datos 
+      que tienen sentido 
+    }
+    </textarea
+        >
+      </div>
+    </div>
+   
+
+    </div>
+    <div class="operadores3">
+      <h1 class="h2R">Arreglos</h1>
+      <br>
+      <h2 class="main__heading" id="estructuraDatos">Vector</h2>
+      <center><img src="fotos/arreglo vector.png" class="arreglo" alt=""> </center> 
+      <h2 class="main__heading" id="estructuraDatos">Matriz</h2>
+      <center><img src="fotos/arreglo matriz.png"class="arreglo" width="640px"  alt=""> </center> <br>
+      <h1 class="main__heading" id="estructuraDatos">Estructuras dinámicas</h1>
+      <p id="definicion">No hay que poner el tamaño. Algo que se puede agrandar <br> o hacer más pequeño durante el tiempo de ejecución </p>
+     
+      <div class="nodo">
+        <div class="nodoDefinicion">
+          <h1>Nodo</h1>   
+          <div class="algoritmos1">
+            <p id="significado">
+                Secuencia de pasos para resolver algo   
+            </p>
+         
+        </div>
+        </div>
+     
+      <img src="fotos/nodo.png" class="imgNodo" alt=""> 
+     
+     
+      </div>
+      <div class="nodo">
+        <div class="nodoDefinicion">
+          <h1>Listas enlazadas</h1>   
+          <div class="algoritmos1">
+            <p id="significado">
+              Estructura de datos dinámica lineal en <br> la que puedo organizar dato de tipos homogéneos. 
+            </p>
+         
+        </div>
+        </div>
+     
+      <img src="fotos/lista enlazada.png" class="imgNodo" alt=""> 
+     
+     
+      </div>
+      <br><br>
+      <h2 class="main__heading" id="estructuraDatos">Tipos de listas enlazadas</h2> <br><br>
+      <div class="cardListasEnlazadas">
+        <div class="cardListas">
+          <img src="fotos/lista simple.png" alt="" > <div class="cardListas__content">
+              <p class="cardListas__title" class="h2R">Lista Enlazada Simple</p>
+              <p class="cardListas__description">Contiene un dato y un puntero siguiente.</p>
+            </div>
+          </div>
+          <div class="cardListas">
+            <img src="fotos/lista enlazada.png" alt="" > <div class="cardListas__content">
+                <p class="cardListas__title" class="h2R">Lista Enlazada Doble</p>
+                <p class="cardListas__description">Contiene un dato, un puntero anterior y siguiente. Primero amarra
+                  el Nuevo a anterior
+                </p>
+              </div>
+            </div>
+      </div>
+      <br>   <br><br>
+ 
+      <h2 class="main__heading" id="estructuraDatos">Comportamientos de las listas</h2>
+      <div class="FIFOLIFO">
+        <div class="card2">
+          <div class="main-content">
+            <div class="header">
+          <span>Comportamiento</span>
+          <span>FIFO</span>
+        </div>
+        <p class="heading">First In First Out</p>
+        <div class="categories">
+          <span>Cola</span>
+         
+        </div>
+          </div>
+     
+        </div>
+  
+        <div class="card2">
+          <div class="main-content">
+            <div class="header">
+          <span>Comportamiento</span>
+          <span>LIFO</span>
+        </div>
+        <p class="heading">Last In First Out</p>
+        <div class="categories">
+          <span>Pila</span>
+         
+        </div>
+          </div>
+     
+        </div>
+      </div>
+      
+       </div> <div class="parteDinamica">
+        </div>
+    <div class="parteDinamica2">
+    
+    </div>
+  
+     
+</body>
+<script src="operadores.js"></script>
+</html>
