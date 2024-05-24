@@ -5,11 +5,16 @@
     padding: 0%;
 
 }
-.seccion1{
-    width: 100%;
-    height: 655px;
-    background-image: url("fotos/Desktop\ -\ 1.png");
+body{
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  color: #eee;
+    background-image: url("fotos/Desktop\ -\ 11.png");
     background-size: cover;
+    background-size: 100%;
+}
+.seccion1{
+    
 }
 .h1{
     
@@ -33,7 +38,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 40%;
+  
 }
 body{
     background-color: #060A13;
@@ -44,12 +49,12 @@ a{
 .botonseccion1 {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
-    display: block; 
-    margin: 15px auto;
+    display: flex; 
+    
     padding: 15px 30px;
     text-align: center;
     font-size: 18px;
-    margin-top: 20%;
+   
     text-decoration: none;
     letter-spacing: 1px;
     text-decoration: none;
@@ -60,6 +65,11 @@ a{
     border: 2px solid #22C3CD;
     border-radius: 10px;
     box-shadow: inset 0 0 0 0 #135c61;
+
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
 }
 
  
@@ -73,14 +83,7 @@ a{
     transform: scale(0.9);
   }
 
-  .seccion2{
-    font-family: "Poppins", sans-serif;
-    color: #bbe7eb;
-    width: 100%;
-    text-align: center;
-    height: 635px;
-    background-image: url("fotos/Desktop\ -\ 6.png");
-  }
+
  
 
   .card {
@@ -91,8 +94,9 @@ a{
     cursor: pointer;
     display: flex;
     justify-content: center;
+    margin-top: 10%;
     align-items: center;
-    left: 10%;
+   
   }
   
   .card-inner {
@@ -106,12 +110,15 @@ a{
     align-items: center;
     position: relative;
   }
+ 
   .cards1{
     position: relative;
     top: 10%;
     display: flex;
     gap: 10%;
+    flex-wrap: wrap; 
   }
+ 
   #conceptos{
     font-family: "Poppins", sans-serif;
     text-align: center;
@@ -140,6 +147,10 @@ a{
     border-radius: 50%;
     position: absolute;
     animation: move-up6 2s ease-in infinite alternate-reverse;
+  }
+  .h2-1{
+    text-align: center;
+    margin-top: 105;
   }
   
   .circle:nth-child(1) {
@@ -242,4 +253,8 @@ a{
   .botonseccion1{
     position: relative;
     top: 3%;
+  }
+  .revista{
+    position: relative;
+    top: 20%;
   }

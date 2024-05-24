@@ -5,45 +5,13 @@
     margin: 0;
     font-family: "Poppins", sans-serif;
 }
-.seccion1{
-    width: 100%;
-    height: 865px;
-    color: #ffff;
-    
-    font-family: "Poppins", sans-serif;
-    background-image: url("fotos/Desktop\ -\ 10.png");
-}
-.seccion2{
-    width: 100%;
-    height: 765px;
-    color: #ffff;
-    
-    font-family: "Poppins", sans-serif;
-    background-image: url("fotos/titulo.png");
-  }
-.seccion3{
-    width: 100%;
-    height: 865px;
-    color: #ffff;
-    
-    font-family: "Poppins", sans-serif;
-    background-image: url("fotos/Desktop\ -\ 8.png");
-}
-.seccion4{
-    width: 100%;
-    height: 865px;
-    color: #ffff;
-    
-    font-family: "Poppins", sans-serif;
-    background-image: url("fotos/Desktop\ -\ 9.png");
-}
-.seccion5{
+body{
   width: 100%;
-  height: 865px;
-  color: #ffff;
-  
   font-family: "Poppins", sans-serif;
-  background-image: url("fotos/Desktop\ -\ 2.png");
+  color: #eee;
+    background-image: url("fotos/Desktop\ -\ 13.png");
+    background-size: cover;
+    background-size: 100%;
 }
 #peso{
     text-align: center;
@@ -82,6 +50,9 @@
 .grafoc{
    display: flex;
     gap: 15%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 #nota{
     font-family: "Poppins", sans-serif;
@@ -98,7 +69,9 @@
   .ario{
     display: flex;
     margin-top: 10%;
-    margin-left: 10%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
   }
   #ario{
     text-align: center;
@@ -107,8 +80,10 @@
   .FIFOLIFO{
     display: flex;
     gap: 5%;
-    margin-left: 5%;
-    
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
   .card2 {
     margin-top: 15%;
@@ -208,6 +183,9 @@
   .arbolitos{
     display: flex;
     margin-top: 15%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
   }
   
   .card1-back {
